@@ -46,34 +46,37 @@
 
         <!--Tables is an element that has rows and has columns-->
 
-        <table>
-       <thead>
+      <table style="width: 500px; border-style:dashed">
         <tr>
-            <th>A</th>
-            <th>B</th>
-            <th>C</th>
+            <thead> <!--Table Header Cells-->
+                <th>A</th>
+                <th>B</th>
+                <th>C</th> 
+            </thead>
         </tr>
-       </thead>
+        <tbody>
             <tr>
-                <td>
-                    Cell 1
-                </td>
-
-                <td>
-                    Cell 2
-                </td>
-
-                <td>
-                    Cell 3
-                </td>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
             </tr>
-
             <tr>
                 <td>Cell B-1</td>
                 <td>Cell B-2</td>
                 <td>Cell B-3</td>
-                <td>Cell B-4</td>
             </tr>
-        </table>
+        </tbody>
+      </table>
+
+      <h3>Inputs and Forms</h3>
+      <form>
+        <label>Name:</label>
+        <p><input type="text"></p>
+        <label>URL:</label>
+        <p><input type="URL"></p>
+        <label>Favorite Color:</label>
+        <p><input type="color"></p>
+        <input type="button" value="Press Me">
+      </form>
    </body>
 </html>

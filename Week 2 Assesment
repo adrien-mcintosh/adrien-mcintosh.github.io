@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <!--Header Beginning-->
+   <head>
+    <title>
+        Week 2: Stylize Your Page; Adrien McIntosh
+    </title>
+    <h1 style="color: maroon;">
+        FromSoftware's Soulsborne Games
+    </h1>
+   </head>
+   <!--Header End-->
+
+   <!--Game List Beginning-->
+   <div style="background-color: black; color: white;">
+    List of their Soulsborne Games + DLC
+    <div>
+        <ol>
+            <li>Demon's Souls (Original), 05 February 2009</li>
+            <li>Dark Souls, 22 September 2011</li>
+            <ul>
+                <li>Artorias of the Abyss, 24 October 2012</li>
+            </ul>
+            <li>Dark Souls 2, 11 March 2014</li>
+            <ul>
+                <li>Crown of the Sunken King DLC, 22 July 2014 (My birthday!)</li>
+                <li>Crown of the Old Iron King DLC, 26 August 2014</li>
+                <li>Crown of the Ivory King DLC, 30 September 2014</li>
+            </ul>
+            <li>Bloodborne, 24 March 2015</li>
+            <ul>
+                <li>The Old Hunters, 24 November 2015</li>
+            </ul>
+            <li>Dark Souls 3, 26 March 2016</li>
+            <ul>
+                <li>Ashes of Ariandel, 24 October 2016</li>
+                <li>The Ringed City, 28 March 2017</li>
+            </ul>
+            <li>Sekiro, 22 March 2019</li>
+            <li>Demon's Souls (Remake), 12 November 2020</li>
+            <li>Elden Ring, 25 February 2022</li>
+            <ul>
+                <li>Shadow of the Erdtree, 21 June 2024</li>
+            </ul>
+        </ol>
+    </div>
+   </div>
+   <!--Game List End-->
+</html>
