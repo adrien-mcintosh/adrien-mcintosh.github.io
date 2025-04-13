@@ -1,49 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html style="font-family: 'Arial'">
+    <section>
     <!--Header Beginning-->
-   <head>
-    <title>
-        Week 2: Stylize Your Page; Adrien McIntosh
-    </title>
-    <h1 style="color: maroon;">
-        FromSoftware's Soulsborne Games
-    </h1>
-   </head>
-   <!--Header End-->
+        <head>
+            <title>
+                Week 2: Stylize Your Page; Adrien McIntosh
+            </title>
+            <h1 style="color: maroon;">
+                FromSoftware's Soulsborne Games
+            </h1>
+        </head>
+    <!--Header End-->
+   </section>
 
-   <!--Game List Beginning-->
-   <div style="background-color: black; color: white;">
-    List of their Soulsborne Games + DLC
-    <div>
-        <ol>
-            <li>Demon's Souls (Original), 05 February 2009</li>
-            <li>Dark Souls, 22 September 2011</li>
-            <ul>
-                <li>Artorias of the Abyss, 24 October 2012</li>
-            </ul>
-            <li>Dark Souls 2, 11 March 2014</li>
-            <ul>
-                <li>Crown of the Sunken King DLC, 22 July 2014 (My birthday!)</li>
-                <li>Crown of the Old Iron King DLC, 26 August 2014</li>
-                <li>Crown of the Ivory King DLC, 30 September 2014</li>
-            </ul>
-            <li>Bloodborne, 24 March 2015</li>
-            <ul>
-                <li>The Old Hunters, 24 November 2015</li>
-            </ul>
-            <li>Dark Souls 3, 26 March 2016</li>
-            <ul>
-                <li>Ashes of Ariandel, 24 October 2016</li>
-                <li>The Ringed City, 28 March 2017</li>
-            </ul>
-            <li>Sekiro, 22 March 2019</li>
-            <li>Demon's Souls (Remake), 12 November 2020</li>
-            <li>Elden Ring, 25 February 2022</li>
-            <ul>
-                <li>Shadow of the Erdtree, 21 June 2024</li>
-            </ul>
-        </ol>
+   <section>
+    <!--Game List Beginning-->
+    <div style="background-color: black; color: white;">
+        List of their Soulsborne Games + DLC
+        <div>
+            <ol>
+                <li>Demon's Souls (Original), 05 February 2009</li>
+                <li>Dark Souls, 22 September 2011</li>
+                    <ul>
+                        <li>Artorias of the Abyss, 24 October 2012</li>
+                    </ul>
+                <li>Dark Souls II, 11 March 2014</li>
+                    <ul>
+                        <li>Crown of the Sunken King DLC, 22 July 2014 (My birthday!)</li>
+                        <li>Crown of the Old Iron King DLC, 26 August 2014</li>
+                        <li>Crown of the Ivory King DLC, 30 September 2014</li>
+                    </ul>
+                <li>Bloodborne, 24 March 2015</li>
+                    <ul>
+                        <li>The Old Hunters, 24 November 2015</li>
+                    </ul>
+                <li>Dark Souls III, 26 March 2016</li>
+                    <ul>
+                        <li>Ashes of Ariandel, 24 October 2016</li>
+                        <li>The Ringed City, 28 March 2017</li>
+                    </ul>
+                <li>Sekiro, 22 March 2019</li>
+                <li>Demon's Souls (Remake), 12 November 2020</li>
+                <li>Elden Ring, 25 February 2022</li>
+                    <ul>
+                        <li>Shadow of the Erdtree, 21 June 2024</li>
+                    </ul>
+            </ol>
+        </div>
     </div>
-   </div>
-   <!--Game List End-->
+    <!--Game List End-->
+
+</section>
+    <!--Bosses I Like and Don't Like List Beginning-->
+    <div>
+        Favorite and Least Favorite Boss from Each Game + DLC
+        <div>
+            <ol>
+                <li>Demon's Souls</li>
+                    <ul>
+                        <li>Favorite: Penetrator</li>
+                        <li>Least Favorite: Dragon God</li>
+                    </ul>
+                <li>Dark Souls (Basegame)</li>
+                    <ul>
+                        <li>Favorite: Ornstein & Smough</li>
+                        <li>Least Favorite: Four Kings</li>
+                    </ul>
+                <li>Dark Souls: Artorias of the Abyss DLC</li>
+                    <ul>
+                        <li>Favorite: Artorias</li>
+                        <li>Least Favorite: Sanctuary Guardian</li>
+                    </ul>
+                <li>Dark Souls II (Basegame)</li>
+                    <ul>
+                        <li>Favorite: Looking Glass Knight</li>
+                        <li>Least Favorite: Covetous Demon</li>
+                    </ul>
+                <li>Dark Souls II: Crown of the Sunken King DLC</li>
+                    <ul>
+                        <li>Favorite: Elana, Squalid Queen</li>
+                        <li>Least Favorite: Sinh, the Slumbering Dragon</li>
+                    </ul>
+                <li>Dark Souls II: Crown of the Old Iron King DLC</li>
+                    <ul>
+                        <li>Favorite: Sir Alonne</li>
+                        <li>Least Favorite: Smelter Demon</li>
+                    </ul>
+                <li>Dark Souls II: Crown of the Ivory King DLC</li>
+                    <ul>
+                        <li>Favorite: Burnt Ivory King</li>
+                        <li>Least Favorite: Lud & Zallen, the King's Pets</li>
+                    </ul>
+                <li>Bloodborne (Basegame)</li>
+                    <ul>
+                        <li>Favorite: Gerhman, the First Hunter</li>
+                        <li>Least Favorite: Rom, the Vacuous Spider</li>
+                    </ul>
+                <li>Bloodborne: The Old Hunters DLC</li>
+                    <ul>
+                        <li>Favorite: Lady Maria of the Astral Clocktower</li>
+                        <li>Least Favorite: Living Failures</li>
+                    </ul>
+                <li>Dark Souls III (Basegame)</li>
+                    <ul>
+                        <li>Favorite: Nameless King</li>
+                        <li>Least Favorite: Curse-rotted Greatwood</li>
+                    </ul>
+                <li>Dark Souls III: Ashes of Ariandel DLC</li>
+                    <ul>
+                        <li>Favorite: Sister Friede & Father Ariandel</li>
+                        <li>Least Favorite: Champion's Gravetender & Gravetender Greatwolf</li>
+                    </ul>
+                <li>Dark Souls III: The Ringed City DLC</li>
+                    <ul>
+                        <li>Favorite: Slave Knight Gael</li>
+                        <li>Least Favorite: Halflight, Spear of the Church</li>
+                    </ul>
+                <li>Sekiro</li>
+                    <ul>
+                        <li>Favorite: Genichro Ashina</li>
+                        <li>Least Favorite: Folding Screen Monkeys</li>
+                    </ul>
+                <li>Elden Ring (Basegame, Remembrance Bosses Only)</li>
+                    <ul>
+                        <li>Favorite: Malenia, Blade of Miquella</li>
+                        <li>Least Favorite: Astel, Naturalborn of the Void</li>
+                    </ul>
+                <li>Elden Ring: Shadow of the Erdtree DLC (Remembrance Bosses Only)</li>
+                    <ul>
+                        <li>Favorite: Radahn, Consort of Miquella</li>
+                        <li>Least Favorite: Metyr, Mother of Fingers</li>
+                    </ul>
+            </ol>
+        </div>
+    </div>
+    <!--Bosses I Like and Don't Like List End-->
+<section>
+    <!--Links to other Games Beginning-->
+    <h3>Steam Page Links to Soulsborne Genre Games not made by FromSoftware</h3>
+    <style>
+        a:visited {background-color: yellow}
+        a:link {color:brown}
+    </style>
+    <p><a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">Hollow Knight</a></p>
+    <p><a href="https://store.steampowered.com/app/1627720/Lies_of_P/" target="_blank">Lies of P</a></p>
+    <p><a href="https://store.steampowered.com/bundle/33529/Blasphemous__Blasphemous_2_Bundle/" target="_blank">Blasphemous I & II</a></p>
+    <!--Links to other Games End-->
+</section>
 </html>
