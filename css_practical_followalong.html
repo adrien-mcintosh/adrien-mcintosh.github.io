@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I_Love_Dark_Souls_III</title>
+        <style>
+            /* 
+            - "* {___}" is called a Root Selector. 
+            - It selects the highest-level parent of a given specification.
+            - The Root Selector below this comment is affecting the background
+            color of the entire document. 
+            */
+            * {
+                background-color: darkslategray; /* Changes background color of entire document. */
+            }
+
+            /*
+            - "element {___}" is called an Element Selector.
+            - It gives instructions to the specified element(s) on how to
+            behave.
+            - In the Element Selector beneath this comment, "img" would be the
+            element selected, and everything inside the "{___}" would be the
+            parameters of what's being changed.
+            */
+            img {
+                height: 400px; /* Changes height of every image. Unless width is specified, the height to width ratio remains unchanged. */
+                width: 400px; /* Changes width of every image. */
+                /*object-fit: contain; /* This changes what the height and width are affecting. This is essentially the image "Maintain your original aspect ratio, and become as large as you can within the specificed parameters of the height and width." */
+                object-fit: cover; /* This basically just zooms into the image. */
+                border-radius: 50%; /*This turns square images into circles. The higher the percentage, the closer it gets to a perfect circle. */
+            }
+
+            /*
+            - "#id-name {___}" is called an ID Selector.
+            - Makes it so the paramters only affect sections that have a shared id-name.
+            - The id-name of the section in the body is "content" (As denoted by id="content").
+
+            - ".class-name {___}" is called a Class Selector.
+            - This is basically the same as an ID Selector, except it only affects things tagged with a class of the same class name.
+            - The class name of the other section in the body is "content" (As denoted by class="content").
+            */
+            .content {
+                height: 738px;
+                width: 798px;
+                background-color:blueviolet;
+                border-radius: 41px 41px 0px 0px; /* "41px 41px 0px 0px" affects the curvature of each corner individually. The two top corners have 41 pixels of curvature, and the bottom two corners have 0 pixels of curvature. */
+                border-width: 10px;
+                border: goldenrod dashed 10px; /*"goldenrod" is the color of the section's border, "dashed" is the border style, and "10px" determines the thickness of the border. */
+
+            }
+        </style>
+    </head>
+    <body>
+        <section class="container"> <!--The class name of this section is "content"-->
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Dark_souls_3_cover_art.jpg/220px-Dark_souls_3_cover_art.jpg"
+            id="DS3-pic" alt="Badass image of the Soul of Cinder">
+            <p></p><p></p>
+            <section class="content">
+
+            </section>
+        </section>
+    </body>
+</html>
