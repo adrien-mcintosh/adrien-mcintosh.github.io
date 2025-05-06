@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+            background-color: slateblue;
+        }
+        h2 {
+            color: orange;
+            font-family:monospace;
+            text-align:right;
+        }
+        h1 {
+            color:orange;
+            font-family:monospace;
+            text-align:left;
+        }
+        .container img {
+            width:100%;
+            display:relative;
+            position:fixed;
+            left:0;
+        }
+        .container .shoot {
+            position: absolute;
+            top: 23%;
+            left: 21%;
+            background-color:gray;
+            color:white;
+            font-size:16px;
+            padding:12px 24px;
+            border:none;
+            cursor:pointer;
+            border-radius:50px;
+            text-align:center;
+            font-family:monospace;
+        }
+        .container .shoot:hover {
+            background-color:orangered;
+        }
+        #destroyed {
+            display:none;
+            z-index:1;
+        }
+    </style>
+    <head>
+        <div>
+            <h2>
+                <img src="https://static.doomworld.com/monthly_2021_03/doom-logo-original.png.9a645fe48009e07d97bede4c9ae62121.png" style="float:left;width:150px;">
+                Adrien McIntosh
+            </h2>
+            <h1>
+                <u>Interactive Experience</u>
+            </h1>
+        </div>  
+    </head>
+    <body>
+        <div class="container">
+            <img src="doom2.png" id="demon">
+            <img src="demondestroyed.png" id="destroyed">
+            <button class="shoot" onclick="destroy()">Click to Destroy</button>
+            <audio id="impdead" src="killedimp.mp3"></audio>
+        </div>
+    </body>
+</html>
+<script>
+    let shoot = document.getElementById("impdead");
+    function destroy() {
+        document.getElementById("destroyed").style.display = "block";
+        let audio = new Audio("killedimp.mp3");
+        audio.play();
+        play.addEventListener("click", destroy);
+    }
+</script>
